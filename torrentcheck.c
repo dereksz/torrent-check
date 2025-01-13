@@ -147,6 +147,7 @@ int beParseString(BYTE* benstr,int benstrLen,int benstrOffset,BYTE** stringBegin
 //	return (benstrOffset);
 //}
 
+int beStepOver(BYTE* benstr,int benstrLen,int benstrOffset);
 
 // Return offset of an element in a dict, or -1 if not found
 // dictKey is a null-terminated string
